@@ -6,7 +6,7 @@ byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED}; // Definindo endereço MAC
 IPAddress ip(192, 168, 1, 211);                    // Definindo endereço IP da rede
 IPAddress myDns(8, 8, 8, 8);                       // Definindo DNS usado.
 EthernetClient client;
-char server[] = "apiarduinowebcontrol.herokuapp.com"; // servidor da API
+char server[] = ""; // servidor da API
 unsigned long lastConnectionTime = 0;                 // time da ultima conexão
 const unsigned long postingInterval = 5;              // intervalo entre requisições
 
